@@ -1,9 +1,3 @@
-Claro, aquí te proporciono el contenido del archivo README con los formatos de Markdown adecuados para títulos y subtítulos. Los títulos y subtítulos están organizados utilizando diferentes niveles de "#" para representar la jerarquía de la sección.
-
-### Contenido del README.md con Formato Markdown
-
----
-
 # Psychrometric Chart Generator
 
 ## Introduction
