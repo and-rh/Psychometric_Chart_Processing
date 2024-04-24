@@ -69,27 +69,27 @@ def create_psychrometric_chart(file_path):
 
 # Lista de archivos para procesar
 file_paths = [
-   r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154541 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\153560 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154183 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154241 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154287 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154291 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154435 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\151572 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154557 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154561 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154563 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154569 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154697 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154699 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154443 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154451 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154455 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154485 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154491 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\3.- datos general\154521 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
-r"C:\Users\andre\OneDrive - Universidad Católica de Chile\Construccion Civil\Fondecyt 11220965\4.- Datas\general_datos_transformadost.csv"
+r"Raw_Data\153560 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154541 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154183 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154241 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154287 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154291 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154435 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\151572 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154557 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154561 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154563 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154569 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154697 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154699 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154443 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154451 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154455 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154485 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154491 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\154521 2022-11-30 2024-04-01 10-Minute Average_processed.csv",
+r"Raw_Data\general_datos_transformadost.csv"
     # Lista tus archivos aquí
 ]
 
